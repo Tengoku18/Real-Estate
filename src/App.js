@@ -10,7 +10,6 @@ function App() {
 
   return (
     <div>
-      {" "}
       <FormContext.Provider value={{ formValues, setFormValues }}>
         <Navbar />
         <Index />
